@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
-import Navbar from './components/Navbar';
+import React from 'react';
+import Counter from './components/Counter';
 import './App.css';
 
 const App = () => {
-
-    return (
-      <div className="App">
-        <header>
-          <Navbar/>
-        </header>
-      </div>
-    );
+  
+  return (
+    <div className="App">
+      <Counter/>
+    </div>
+  );
 
 };
 export default App;
